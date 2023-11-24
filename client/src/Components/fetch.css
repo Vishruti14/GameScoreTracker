@@ -1,0 +1,80 @@
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-top: 20px;
+
+    /* background-image: url('./scorewell.jpg'); */
+    /* background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(./scorewell.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+     /* align-items: center; */
+    /* height: 100vh;  */
+    background-color:rgb(50, 191, 203);
+    /* margin: 0; */
+  }
+  #container1 h3{
+    margin-top: 30px;
+  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  tr {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Hover effect on table rows */
+  tr:hover {
+    background-color: #ddd;
+  }
+  button{
+    width:100px;
+  }
+  /* Add this CSS to your 'fetch.css' file */
+.card {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 30px;
+  /* width:70%; */
+}
+.card {
+  font-family: 'Your Selected Font', sans-serif;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
